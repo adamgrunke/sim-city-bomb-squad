@@ -1,3 +1,45 @@
 body{
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.exploded {
+  background-image: url(img/explosion.jpg);
+  background-image: url("https://www.placecage.com/gif/1200/900");
+}
+
+.unexploded {
+  background-image: url("img/simcity.jpg");
+
+}
+
+main {
+  background-color: black;
+  border-radius: 10px;
+  width: 200px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
+  padding: 0.5em;
+
+}
+
+.red{
+  color: red;
+}
+.green {
+  color: green;
+}
+
+#timetext {
+  font-size: 48px;
+}
+
+main div:nth-child(3) {
+  padding: 0.5em;
+}
+
+button {
+  margin: 0 10px;
 }
